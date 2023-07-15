@@ -1,9 +1,9 @@
 #!/bin/bash
 
-##   Zphisher 	: 	Automated Phishing Tool
-##   Author 	: 	TAHMID RAYAT 
+##   Dphisher 	: 	Automated Phishing Tool
+##   Author 	: 	PRINCE YADAV 
 ##   Version 	: 	2.3.5
-##   Github 	: 	https://github.com/htr-tech/zphisher
+##   Github 	: 	https://github.com/CodeYourCareer/DevilPhisher.git
 
 
 ##                   GNU GENERAL PUBLIC LICENSE
@@ -203,6 +203,14 @@ check_status() {
 ## Banner
 banner() {
 	cat <<- EOF
+        
+		${ORANGE}  ||||||||||||  |||||||||||   ||||||||||||  ||\\        ||  ||||||||||   ||||||||||
+                ${ORANGE}  ||        ||  ||       ||        ||       ||  \\      ||  ||           ||
+		${ORANGE}  ||        ||  ||       ||        ||       ||    \\    ||  ||           ||
+		${ORANGE}  ||||||||| ||  |||||||||||        ||       ||     \\   ||  ||           ||||||||||
+                ${ORANGE}  ||            || \\              ||       ||      \\  ||  ||           ||
+		${ORANGE}  ||            ||   \\            ||       ||       \\ ||  ||           ||
+                ${ORANGE}  ||            ||    \\      ||||||||||||  ||        \\||  ||||||||||   ||||||||||
 		${ORANGE}
 		${ORANGE} ______      _     _     _               
 		${ORANGE}|___  /     | |   (_)   | |              
@@ -213,13 +221,16 @@ banner() {
 		${ORANGE}      | |                                
 		${ORANGE}      |_|                ${RED}Version : ${__version__}
 
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
+		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (Prince.Yadav)${WHITE}
 	EOF
 }
 
 ## Small Banner
 banner_small() {
 	cat <<- EOF
+                ${BLUE}
+                ${BLUE}░█▀▄▒██▀░█▒█░█░█▒░▒█▀▄░█▄█░█░▄▀▀░█▄█▒██▀▒█▀▄
+                ${BLUE}▒█▄▀░█▄▄░▀▄▀░█▒█▄▄░█▀▒▒█▒█░█▒▄██▒█▒█░█▄▄░█▀▄${WHITE} ${__version__}
 		${BLUE}
 		${BLUE}  ░▀▀█░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄
 		${BLUE}  ░▄▀░░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄
@@ -351,7 +362,7 @@ about() {
 	cat <<- EOF
 		${GREEN} Author   ${RED}:  ${ORANGE}TAHMID RAYAT ${RED}[ ${ORANGE}HTR-TECH ${RED}]
 		${GREEN} Github   ${RED}:  ${CYAN}https://github.com/htr-tech
-		${GREEN} Social   ${RED}:  ${CYAN}https://tahmidrayat.is-a.dev
+		${GREEN} Social   ${RED}:  ${CYAN}https://instagram.com/riderp143
 		${GREEN} Version  ${RED}:  ${ORANGE}${__version__}
 
 		${WHITE} ${REDBG}Warning:${RESETBG}

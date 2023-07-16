@@ -209,10 +209,7 @@ banner() {
                 ${ORANGE}| |__)  | |__) |  | |   |  \| | | |      | |__   
                 ${ORANGE}|  ___/ |  _  /   | |   | . ` | | |      |  __|  
                 ${ORANGE}| |     | | \ \  _| |_  | |\  | | |____  | |____ 
-                ${ORANGE}|_|     |_|  \_\|_____| |_| \_|  \_____| |______| 
-		                          ${RED}Version : ${__version__}
-                                                    
-		${ORANGE}|_|                ${RED}Version : ${__version__}
+                ${ORANGE}|_|     |_|  \_\|_____| |_| \_|  \_____| |______| ${RED}Version : ${__version__}
 
 		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (Prince.Yadav)${WHITE}
 	EOF
